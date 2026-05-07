@@ -1,0 +1,77 @@
+body{
+    background-color: burlywood;
+    
+    
+}
+main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 1.56rem;
+    color:rgba(18, 18, 17, 0.735);
+    text-align:center;
+
+}
+
+/* body  of calculator */
+.outerbox{
+    display:flex;
+    height: 37.5rem;
+    border:0.12rem solid black;
+    border-radius: 1.25rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 18.75rem;
+    /* margin-left: 2 rem auto; */
+    background-color: rgba(0, 0, 0, 0.395);
+}
+/* screen of calc */
+.screen{
+    width:17.5rem;
+    
+    border-radius: 1.25rem;
+    height: 6.25rem;
+    /* margin-left: 25%; */
+    margin-top:1.5rem;
+    /* margin-right: 25%; */
+    background-color: rgba(255, 255, 255, 0.571);
+
+}
+/* first line of buttons */
+.buttonarea{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+}
+button{
+    height: 3.125rem;
+    width:3.125rem;
+    border-radius: 50%;
+    border:none;
+    background-color: orange;
+
+    
+}
+button:hover{
+    background-color: darkorange;
+    cursor: pointer;
+
+}
+
+ 
+.specialbutton{
+    display: flex;
+    margin-left: 6rem;
+    
+}
+#special:hover{
+    background-color: aqua;
+}
+#special{
+    background-color: aquamarine;
+}
