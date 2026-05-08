@@ -26,7 +26,7 @@ h1{
     flex-wrap: wrap;
     width: 18.75rem;
     /* margin-left: 2 rem auto; */
-    background-color: rgba(0, 0, 0, 0.395);
+    background-color: rgba(0, 0, 0, 0.945);
 }
 /* screen of calc */
 .screen{
@@ -74,4 +74,15 @@ button:active{
 }
 #special{
     background-color: aquamarine;
+}
+/* footnote */
+.footnote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    margin-top: 6.25rem;
+    width: 37.5rem auto;
+    height: 2.5rem;
+    /* border:0.12rem solid rgb(5, 63, 5) */
 }
