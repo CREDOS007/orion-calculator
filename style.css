@@ -3,6 +3,11 @@ body{
     
     
 }
+.screen{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
 main{
     display:flex;
     align-items: center;
